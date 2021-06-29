@@ -10,7 +10,7 @@ public class classeArrays  {
             array1[posição] = valor;
         }
         if (posição < 0 || posição > 9) {
-            System.out.println("Por favor digite um valor valido (de 0 a 9)");
+            System.out.println("digite um valor de 0 a 9");
         }
     }
 
@@ -19,7 +19,7 @@ public class classeArrays  {
             array2[posição] = valor;
         }
         if (posição < 0 || posição > 9) {
-            System.out.println("Por favor digite um valor valido (de 0 a 9)");
+            System.out.println(" digite um valor de 0 a 9");
         }
     }
 
@@ -59,7 +59,7 @@ public class classeArrays  {
         try {
             double c = a / b;
         } catch (ArithmeticException aex) {
-            System.out.println("Digite um número válido, não é possível dividir por 0. Erro:\n" + aex);
+            System.out.println("Digite um número, não é possível dividir por 0. Erro:\n" + aex);
         }        
         return a/b;
     }
